@@ -1,0 +1,316 @@
+{
+  "arr": [
+    {
+      "question": "How old your elder brother was 10 years before you was born, mate?",
+      "answers": [
+        {
+          "answerOption": "A",
+          "answer": "10 years",
+          "isCorrect": false
+        },
+        {
+          "answerOption": "B",
+          "answer": "11 years",
+          "isCorrect": true
+        },
+        {
+          "answerOption": "C",
+          "answer": "12 years",
+          "isCorrect": false
+        },
+        {
+          "answerOption": "D",
+          "answer": "13 years",
+          "isCorrect": false
+        }
+      ],
+      "award": 500
+    },
+    {
+      "question": "What's the Current Year?",
+      "answers": [
+        {
+          "answerOption": "A",
+          "answer": "2010",
+          "isCorrect": false
+        },
+        {
+          "answerOption": "B",
+          "answer": "2020",
+          "isCorrect": true
+        },
+        {
+          "answerOption": "C",
+          "answer": "2140",
+          "isCorrect": false
+        },
+        {
+          "answerOption": "D",
+          "answer": "2050",
+          "isCorrect": false
+        }
+      ],
+      "award": 1000
+    },
+    {
+      "question": "How many planets are in our solar system?",
+      "answers": [
+        {
+          "answerOption": "A",
+          "answer": "One",
+          "isCorrect": false
+        },
+        {
+          "answerOption": "B",
+          "answer": "Eight",
+          "isCorrect": true
+        },
+        {
+          "answerOption": "C",
+          "answer": "Twenty",
+          "isCorrect": true
+        },
+        {
+          "answerOption": "D",
+          "answer": "Dozen",
+          "isCorrect": false
+        }
+      ],
+      "award": 4000
+    },
+    {
+      "question": "The capital of Ukraine?",
+      "answers": [
+        {
+          "answerOption": "A",
+          "answer": "Honolulu",
+          "isCorrect": false
+        },
+        {
+          "answerOption": "B",
+          "answer": "Kiev",
+          "isCorrect": true
+        },
+        {
+          "answerOption": "C",
+          "answer": "Denver",
+          "isCorrect": false
+        },
+        {
+          "answerOption": "D",
+          "answer": "Denpasar",
+          "isCorrect": false
+        }
+      ],
+      "award": 2000
+    },
+    {
+      "question": "What is the largest mammals?",
+      "answers": [
+        {
+          "answerOption": "A",
+          "answer": "Bird",
+          "isCorrect": false
+        },
+        {
+          "answerOption": "B",
+          "answer": "Cat",
+          "isCorrect": true
+        },
+        {
+          "answerOption": "C",
+          "answer": "The blue whale",
+          "isCorrect": true
+        },
+        {
+          "answerOption": "D",
+          "answer": "Rabbit",
+          "isCorrect": false
+        }
+      ],
+      "award": 8000
+    },
+    {
+      "question": "What is the one color of ukrainian flag",
+      "answers": [
+        {
+          "answerOption": "A",
+          "answer": "white",
+          "isCorrect": false
+        },
+        {
+          "answerOption": "B",
+          "answer": "black",
+          "isCorrect": false
+        },
+        {
+          "answerOption": "C",
+          "answer": "yellow",
+          "isCorrect": true
+        },
+        {
+          "answerOption": "D",
+          "answer": "pink",
+          "isCorrect": false
+        }
+      ],
+      "award": 32000
+    },
+    {
+      "question": "How many days are in a year?",
+      "answers": [
+        {
+          "answerOption": "A",
+          "answer": "12",
+          "isCorrect": false
+        },
+        {
+          "answerOption": "B",
+          "answer": "365",
+          "isCorrect": true
+        },
+        {
+          "answerOption": "C",
+          "answer": "182",
+          "isCorrect": false
+        },
+        {
+          "answerOption": "D",
+          "answer": "1040",
+          "isCorrect": false
+        }
+      ],
+      "award": 16000
+    },
+    {
+      "question": "Who built the pyramids?",
+      "answers": [
+        {
+          "answerOption": "A",
+          "answer": "The Ukrainians",
+          "isCorrect": false
+        },
+        {
+          "answerOption": "B",
+          "answer": "The Egyptians",
+          "isCorrect": true
+        },
+        {
+          "answerOption": "C",
+          "answer": "The Americans",
+          "isCorrect": false
+        },
+        {
+          "answerOption": "D",
+          "answer": "Allians",
+          "isCorrect": false
+        }
+      ],
+      "award": 64000
+    },
+    {
+      "question": "What does Big Bang Theory explain?",
+      "answers": [
+        {
+          "answerOption": "A",
+          "answer": "Theory of Pifagores",
+          "isCorrect": false
+        },
+        {
+          "answerOption": "B",
+          "answer": "Human evolution",
+          "isCorrect": false
+        },
+        {
+          "answerOption": "C",
+          "answer": "The true of space",
+          "isCorrect": false
+        },
+        {
+          "answerOption": "D",
+          "answer": "Origin of Universe",
+          "isCorrect": true
+        }
+      ],
+      "award": 125000
+    },
+    {
+      "question": "WWW stands for?",
+      "answers": [
+        {
+          "answerOption": "A",
+          "answer": "Some abbreviation",
+          "isCorrect": false
+        },
+        {
+          "answerOption": "B",
+          "answer": "World Wide Web",
+          "isCorrect": true
+        },
+        {
+          "answerOption": "C",
+          "answer": "World Wise Wisdom",
+          "isCorrect": false
+        },
+        {
+          "answerOption": "D",
+          "answer": "Wealth World World",
+          "isCorrect": false
+        }
+      ],
+      "award": 250000
+    },
+    {
+      "question": "Which is the principal source of energy for earth?",
+      "answers": [
+        {
+          "answerOption": "A",
+          "answer": "Happiness",
+          "isCorrect": false
+        },
+        {
+          "answerOption": "B",
+          "answer": "Sun",
+          "isCorrect": true
+        },
+        {
+          "answerOption": "C",
+          "answer": "Electricity",
+          "isCorrect": false
+        },
+        {
+          "answerOption": "D",
+          "answer": "Nothing",
+          "isCorrect": false
+        }
+      ],
+      "award": 500000
+    },
+    {
+      "question": "Which is the tallest mountain in the world?",
+      "answers": [
+        {
+          "answerOption": "A",
+          "answer": "Batur",
+          "isCorrect": false
+        },
+        {
+          "answerOption": "B",
+          "answer": "Hoverla",
+          "isCorrect": false
+        },
+        {
+          "answerOption": "C",
+          "answer": "Rainer",
+          "isCorrect": false
+        },
+        {
+          "answerOption": "D",
+          "answer": "Mount Everest",
+          "isCorrect": true
+        }
+      ],
+      "award": 1000000
+    }
+  ]
+}

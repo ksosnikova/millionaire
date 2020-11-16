@@ -1,0 +1,148 @@
+@mixin hexagon-style($bg-color, $border-color) {
+  &:before {
+    background: $border-color;
+  }
+
+  .hexagon {
+    background: $bg-color;
+    border-color: $border-color;
+
+    &:before,
+    &:after {
+      background: $bg-color;
+      border-color: $border-color;
+    }
+  }
+
+  .hexagon-inner {
+    &:before,
+    &:after {
+      background:$bg-color;
+      border-color: $border-color;
+    }
+  }
+
+  
+}
+
+.hexagon-wrap {
+  width: 100%;
+  position: relative;
+
+  &.md {
+    height: em(72);
+
+    .hexagon {
+      width: calc(100% - 58px);
+    }    
+  }
+
+  &.xs {
+    height: em(40);
+    margin-bottom: em(15);
+
+    .hexagon {
+      width: calc(100% - #{em(113)});
+    }
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    background-color: $dark-grey-color;
+    height: 1px;
+  }
+
+  &.success {
+    @include hexagon-style(#E6FAEA, $success-color);
+  }
+
+  &.danger {
+    @include hexagon-style(#FDEEED, $danger-color);
+  }
+
+  &.selected {
+    @include hexagon-style(#FFF3EB, $primary-color);
+  }
+
+  &.selected-style-2 {
+    @include hexagon-style(#fff, $primary-color);
+    color: $primary-color;
+  }
+
+  &.previous {
+    color: $dark-grey-color;
+  }
+}
+
+@mixin hexagon_side {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  border: solid $dark-grey-color;
+  background: #fff;
+}
+
+.hexagon {
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+  background: #fff;
+  border: solid $dark-grey-color;
+  border-width: 1px 0;
+  position: relative;
+
+  &:before {
+    @include hexagon_side();
+    transform: skew(35deg);
+    top: -1px;
+    right: -16px;
+    border-radius: 0 6px 0 0;
+    border-width: 1px 1px 0 0;
+  }
+
+  &:after {
+    @include hexagon_side();
+    transform: skew(-35deg);
+    bottom: -1px;
+    right: -16px;
+    border-radius: 0 0 6px 0;
+    border-width: 0 1px 1px 0;
+  }
+
+  .answer-option {
+    color: $primary-color;
+    padding-right: em(10);
+   }
+}
+
+.hexagon-inner {
+  display: flex;
+  align-items: center;
+  height: 100%;
+
+  &:before {
+    @include hexagon_side();
+    transform: skew(-35deg);
+    top: -1px;
+    left: -16px;
+    border-radius: 6px 0 0 0;
+    border-width: 1px 0 0 1px;
+  }
+
+  &:after {
+    @include hexagon_side();
+    transform: skew(35deg);
+    bottom: -1px;
+    left: -16px;
+    border-radius: 0 0 0 6px;
+    border-width: 0 0 1px 1px;
+  }
+
+  & > span {
+    position: relative;
+    z-index: 1;
+  }
+}
