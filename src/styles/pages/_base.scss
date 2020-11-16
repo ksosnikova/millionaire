@@ -12,11 +12,22 @@
     padding: 0 em(20);
     max-width: em(1200);
     margin: 0 auto;
+    width: 100%;
   }
 
   .image-holder {
     width: 55%;
     min-width: 35%;
+  }
+  .image-holder .image {
+    background-image: url("../../assets/images/thumb_up.svg");
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 500px;
+    height: 350px;
   }
 
   .text-holder {

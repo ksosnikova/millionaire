@@ -1,6 +1,5 @@
 import React, { useContext } from 'react';
-import thumb_up from '../../assets/images/thumb_up.svg';
-import { Button } from '../../components/components/Button/Button';
+import { Button } from '../../components/Button/Button';
 import { ROUTES } from '../../navigation/routes';
 import { KeyContext } from '../../context';
 
@@ -12,7 +11,7 @@ export const GameFinish = () => {
     <div className="base-container">
       <div className="columns">
         <div className="image-holder">
-          <img src={thumb_up} alt="thumb_up" width="" />
+          <div className="image"/>
         </div>
         <div className="text-holder">
           <div>

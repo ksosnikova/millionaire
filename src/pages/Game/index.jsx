@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import { Answer } from '../../components/components/Answer/Answer';
-import { AnswerProgress } from '../../components/components/AnswerProgress/AnswerProgress';
+import { Answer } from '../../components/Answer/Answer';
+import { AnswerProgress } from '../../components/AnswerProgress/AnswerProgress';
 import json from '../../json/qa.json';
 import { KeyContext } from './../../context';
 

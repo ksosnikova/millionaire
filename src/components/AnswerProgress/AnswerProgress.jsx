@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
-import { KeyContext } from '../../../context';
+import { KeyContext } from '../../context';
 
 export const AnswerProgress = ({ index, award, currentIndex }) => {
 

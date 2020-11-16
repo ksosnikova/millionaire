@@ -1,12 +1,12 @@
 import React, { useState, useContext, useEffect } from 'react';
-import { KeyContext } from '../../../context';
+import { KeyContext } from '../../context';
 import { useHistory } from 'react-router-dom';
 
 export const Answer = ({ answerOption, answer, isCorrect, lastQuestion }) => {
 
   const history = useHistory();
 
-  let { keyQuestion, increaseKeyQuestion, resetKeyQuestion, setCurrentAwardAmount } = useContext(KeyContext);
+  let { keyQuestion, increaseKeyQuestion, resetKeyQuestion } = useContext(KeyContext);
 
   const [className, setClassName] = useState('hexagon-wrap md');
 
